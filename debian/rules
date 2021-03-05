@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+export DH_VERBOSE = 1
+
+%:
+	dh $@
+
+override_dh_usrlocal:
+
+override_dh_auto_install:
+	#install -D -m 0755 ./build/bin/localproxy $$(pwd)/debian/aws-iot-securetunneling-localproxy/usr/local/bin/localproxy
+	dh_auto_install -- prefix=/usr/local
+configure:
+	dh_autoreconf
+	./configure ...
+
+clean:
+	dh_autoreconf_clean
+	dh_clean

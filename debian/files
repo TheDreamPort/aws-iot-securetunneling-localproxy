@@ -1,0 +1,3 @@
+aws-iot-securetunneling-localproxy-dbgsym_2.1.2_amd64.deb debug optional automatic=yes
+aws-iot-securetunneling-localproxy_2.1.2_amd64.buildinfo utils -
+aws-iot-securetunneling-localproxy_2.1.2_amd64.deb utils extra

@@ -1,0 +1,11 @@
+Source: aws-iot-securetunneling-localproxy
+Maintainer: Maryland Innovation Security Institute
+Build-Depends: debhelper (>= 10.2.5)
+Standards-Version: 3.9.8
+Section: utils
+
+Package: aws-iot-securetunneling-localproxy
+Priority: extra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: MISI compiled distribution of AWS project
