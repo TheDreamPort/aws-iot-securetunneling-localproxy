@@ -16,6 +16,6 @@ install: build
 clean:
 	@echo "Cleaning system"
 	@$(RM) build/
-	@$(RM) debian/aws-securetunneling-localproxy* debian/.debhelper
+	@$(RM) debian/aws-iot-securetunneling-localproxy* debian/.debhelper
 
 .PHONY: install clean develop package build
